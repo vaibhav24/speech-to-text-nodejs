@@ -3,7 +3,7 @@ declared-services:
 - speech-to-text-service:
     label: speech_to_text
     plan: free
-applications:
+applications:demovtt
 - name: speech-to-text-nodejs
   command: node app.js
   path: .
